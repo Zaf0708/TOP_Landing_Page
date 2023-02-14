@@ -13,19 +13,41 @@ body {
   width: auto;
 }
 
-.body {
+.card-holder {
+  padding: 16px;
   display: flex;
   border: 1px solid red;
-  height: 600px;
-  width: auto;
+
+}
+
+.features {
+  display: flex;
+  border: 1px solid red;
+
 }
 
 .card {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .footer {
   display: flex;
   padding: 16px;
   justify-content: space-between;
   border: 1px solid red;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+  width: 900px;
+  height: 900px;
 }
