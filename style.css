@@ -8,6 +8,7 @@ body {
   background-color: #1F2937;
   display: flex;
   justify-content: center;
+  align-items: center;
   border: 1px solid red;
   gap: 200px;
 
@@ -27,6 +28,7 @@ body {
   border: 1px solid red;
   gap: 12px;
   align-items: center;
+  padding-right: 25px;
 }
 
 .main-picture {
@@ -42,5 +44,11 @@ body {
   border: 1px solid red;
   justify-content: center;
   gap: 150px;
+
+}
+
+.sign-in {
+  width: 80px;
+  height: 20px;
 
 }
