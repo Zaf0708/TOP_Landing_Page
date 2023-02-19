@@ -115,7 +115,7 @@ p {
 .signature {
   padding-top: 15px;
   padding-left: 400px;
-  font-style: italic;
+  font-weight: bold;
 }
 
 .register-section {
