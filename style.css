@@ -13,13 +13,11 @@ body {
 .body {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
-  border: 2px solid red;
+  width: 90px;
+  height: 90px;
 }
 
 .hero-section {
@@ -30,20 +28,19 @@ body {
   align-items: center;
   gap: 70px;
   padding-bottom: 5rem;
-  border: 2px solid red;
 }
 
 .header {
   display: flex;
   align-items: center;
-  border: 2px solid red;
+  justify-content: space-between;
+  width: 900px;
 }
 
 .links {
   display: flex;
   gap: 3rem;
   text-decoration: none;
-  border: 2px solid red;
 }
 
 a {
@@ -57,15 +54,14 @@ a {
 
 .info-picture {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 4rem;
-  border: 2px solid red;
 }
 
 .hero-title {
   font-size: 22px;
   word-wrap: normal;
-  border: 2px solid red;
 }
 
 p {
@@ -76,12 +72,10 @@ p {
 .main-picture {
   width: 300px;
   height: auto;
-  border: 2px solid red;
 }
 
 .sign-in {
   padding: 0.5rem 1rem;
-  border: 2px solid red;
 }
 
 .info-section {
@@ -90,7 +84,6 @@ p {
   align-items: center;
   color: #1F2937;
   padding: 30px;
-  border: 2px solid red;
 }
 
 .description-text {
@@ -99,14 +92,12 @@ p {
   color: #1F2937;
   font-size: 36px;
   font-weight: bolder;
-  border: 2px solid red;
 }
 
 .cards {
   display: flex;
   padding: 25px;
   gap: 25px;
-  border: 2px solid red;
 }
 
 .product {
@@ -114,7 +105,6 @@ p {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  border: 2px solid red;
 }
 
 .card-picture {
@@ -122,7 +112,6 @@ p {
   height: 150px;
   border: 3px solid #3882F6;
   border-radius: 10%;
-  border: 2px solid red;
 }
 
 .quote-section {
@@ -132,20 +121,15 @@ p {
   align-items: center;
   color: #1f2937;
   padding: 40px;
-  border: 2px solid red;
 }
 
 .quote-text{
   font-size: 36px;
   font-style: italic;
-  border: 2px solid red;
-}
-
 .signature {
   padding-top: 15px;
   padding-left: 400px;
   font-weight: bold;
-  border: 2px solid red;
 }
 
 .register-section {
@@ -165,12 +149,10 @@ p {
   justify-content: space-between;
   border-radius: 10px;
   color: white;
-  border: 2px solid red;
 }
 
 .sign-up {
   align-self: center;
-  border: 2px solid red;
 }
 
 .sign-up {
@@ -180,19 +162,16 @@ p {
   background-color: #3882F6;
   color: white;
   padding: 6px 20px;
-  border: 2px solid red;
 }
 
 .textbox {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
 }
 
 .text-1 {
   font-size: 24px;
   font-weight: bold ;
-  border: 2px solid red;
 }
 .text-2 {
   font-size: 14px;
@@ -205,5 +184,4 @@ p {
   display: flex;
   justify-content: center;
   padding: 20px;
-  border: 2px solid red;
 }
